@@ -1,0 +1,26 @@
+/* resetar estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Keep Calm;
+    src: url("Fonts/KeepCalm-Medium.ttf");
+}
+
+@font-face {
+    font-family: Obadiah-Heavy;
+    src: url("Fonts/Obadiah-Heavy.otf");
+}
+
+@font-face {
+    font-family: Obadiah-Bold;
+    src: url("Fonts/Obadiah-Bold.otf")
+}
+
+@font-face {
+    font-family: Obadiah-Light;
+    src: url("Fonts/Obadiah-Light.otf");
+}
