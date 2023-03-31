@@ -24,3 +24,432 @@
     font-family: Obadiah-Light;
     src: url("Fonts/Obadiah-Light.otf");
 }
+
+.header {
+    padding: 10px 50px 100px 50px;
+    background-image: url("./Img/Header_Fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+.header__nav-items {
+    margin: 20px 17.5px;
+    font-family: Obadiah-Light;
+}
+
+.header__nav-items :hover {
+    color: aqua
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+}
+
+.header__logo {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.header__logo__img {
+    width: 150px;
+}
+
+.header__tittle {
+    margin-top: 60px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Obadiah-Heavy;
+    text-shadow: 7px 7px 15px black;
+}
+
+.header__email {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 400px;
+    border: 50px;
+    border-color: aquamarine;
+}
+
+.header__btn {
+    padding: 7px 10px;
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: white;
+    color: white;
+    background-color: rgb(47, 47, 47);
+    margin-top: 30px;
+    font-family: Keep Calm;
+}
+
+.main {
+    margin: 50px 50px;
+}
+
+.main__section {
+    padding: 50px 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.main__tittle {
+    text-align: center;
+    font-size: 60px;
+    font-family: Obadiah-Heavy;
+}
+
+.main__tittle__Slogan {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: Obadiah-Light;
+}
+
+.main__graphicdesign {
+    display: block;
+    margin-right: 100px;
+    border: 1px solid #ccc;
+    /* borde de la tarjeta */
+    border-radius: 5px;
+    /* borde redondeado */
+    background-color: #fff;
+    /* fondo blanco */
+    box-shadow: 2px 2px 2px #ccc;
+    /* sombreado */
+    padding: 10px;
+    /* espacio interno */
+    margin: 10px;
+    /* espacio externo */
+}
+
+.main__graphicdesign__Description {
+    display: block;
+    text-align: center;
+}
+
+.main__graphicdesign__img {
+    height: 200px;
+}
+
+.main__graphicdesign__title {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Obadiah-Bold;
+    font-size: 25px;
+}
+
+.main__graphicdesign__list {
+    text-align: left;
+    font-family: Obadiah-Light;
+    font-size: 18px;
+}
+
+.main__graphicdesign__btn {
+    padding: 7px 10px;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-top: 30px;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    font-family: Keep Calm;
+}
+
+.main__audiovisual {
+    display: block;
+    margin-right: 100px;
+    border: 1px solid #ccc;
+    /* borde de la tarjeta */
+    border-radius: 5px;
+    /* borde redondeado */
+    background-color: #fff;
+    /* fondo blanco */
+    box-shadow: 2px 2px 2px #ccc;
+    /* sombreado */
+    padding: 10px;
+    /* espacio interno */
+    margin: 10px;
+    /* espacio externo */
+}
+
+.main__audiovisual__Description {
+    display: block;
+    text-align: center;
+}
+
+.main__audiovisual__img {
+    height: 200px;
+}
+
+.main__audiovisual__title {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Obadiah-Bold;
+    font-size: 25px;
+}
+
+.main__audiovisual__list {
+    text-align: left;
+    font-family: Obadiah-Light;
+    font-size: 18px;
+}
+
+.main__audiovisual__btn {
+    padding: 7px 10px;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-top: 30px;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    font-family: Keep Calm;
+}
+
+
+.main__webdesign {
+    display: block;
+    border: 1px solid #ccc;
+    /* borde de la tarjeta */
+    border-radius: 5px;
+    /* borde redondeado */
+    background-color: #fff;
+    /* fondo blanco */
+    box-shadow: 2px 2px 2px #ccc;
+    /* sombreado */
+    padding: 10px;
+    /* espacio interno */
+    margin: 10px;
+    /* espacio externo */
+}
+
+.main__webdesign__Description {
+    display: block;
+    text-align: center;
+}
+
+.main__webdesign__img {
+    height: 200px;
+}
+
+.main__webdesign__title {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Obadiah-Bold;
+    font-size: 25px;
+}
+
+.main__webdesign__list {
+    text-align: left;
+    font-family: Obadiah-Light;
+    font-size: 18px;
+}
+
+.main__webdesign__btn {
+    padding: 7px 10px;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-top: 30px;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    font-family: Keep Calm;
+}
+
+.Additionals {
+    background-color: rgb(47, 47, 47);
+    display: flex;
+}
+
+.additional__div {
+    padding: 300px 50px;
+    background-image: url("./Img/Ideas.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+}
+
+.Additionals__tittle {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 7px 7px 15px black;
+    font-family: Obadiah-Heavy;
+}
+
+.Form {
+    padding: 300px 50px;
+
+}
+
+.Form__tittle {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: Obadiah-Heavy;
+}
+
+.Form__content__text {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-family: Obadiah-Light;
+}
+
+.form__Email {
+    color: white;
+    font-size: 25px;
+    margin: 0px 0px 20px 0px;
+    font-family: Keep Calm;
+}
+
+.form__Email__Input {
+    width: 300px;
+    height: 25px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.form__text {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    margin: 5px 0px;
+    font-family: Obadiah-Light;
+}
+
+.form__checkbox {
+    margin-top: 20px;
+}
+
+.form__check__label {
+    color: white;
+    font-family: Obadiah-Light;
+}
+
+.Form__btn {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+footer {
+    background-color: rgb(47, 47, 47);
+    padding: 80px 200px 50px 200px;
+    font-family: Obadiah-Light;
+}
+
+.nombreClase {
+    background-color: red;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 18% 65% 1fr;
+}
+
+.footer-top nav {
+    display: flex;
+}
+
+.footer-top nav ul {
+    margin-right: 55px;
+}
+
+.footer-top nav li {
+    list-style: none;
+    margin-top: 10px;
+    letter-spacing: .08em;
+    font-size: 14px;
+    color: white;
+}
+
+.footer-top nav li:hover {
+    color: aqua;
+}
+
+.footer-top nav li.titulo {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: aqua;
+}
+
+.redes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.redes label {
+    margin-left: 15px;
+}
+
+.lenguaje {
+    text-align: right;
+}
+
+.lenguaje {
+    color: white;
+}
+
+.lenguaje :hover {
+    color: aqua;
+}
+
+.footer-bottom {
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.footer-bottom ul,
+.footer-bottom ul li,
+.footer-bottom .copy {
+    display: inline-block;
+}
+
+.footer-bottom ul {
+    width: 60%;
+    padding: 0;
+}
+
+.footer-bottom ul li:hover {
+    color: aqua;
+}
+
+.footer-bottom .copy {
+    width: 39%;
+}
+
+.copy {
+    text-align: right;
+    font-size: 15px;
+}
+
