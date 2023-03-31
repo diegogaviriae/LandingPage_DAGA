@@ -623,3 +623,211 @@ footer {
         justify-content: center;
     }
 }
+
+/*Estilos Mobile*/
+
+
+@media (max-width: 700px) {
+
+    .header {
+        padding: 5px 10px 20px 10px;
+        background-image: url("./Img/Header_Fondo.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .header__nav-items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__nav-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .header__logo {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__logo__img {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header__link {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__tittle {
+        font-size: 35px;
+        width: 95%;
+    }
+
+    .header__email {
+        width: 60%;
+
+    }
+
+    .header__btn {
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    .main__tittle {
+        font-size: 45px;
+        margin-top: 25px;
+    }
+
+    .main__tittle__Slogan {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .main__section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main__graphicdesign {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .main__audiovisual {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .Additionals {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .additional__div {
+        width: 100%;
+        padding: 300px 0;
+    }
+
+    .main {
+        margin: 0;
+    }
+
+    .additional__form {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Form__tittle {
+        font-size: 40px;
+        width: 95%;
+        text-align: center;
+    }
+
+    .Form__content__text {
+        text-align: center;
+        width: 95%;
+        font-size: 20px;
+    }
+
+    .form__text {
+        text-align: center;
+        width: 80%;
+    }
+
+    .form__Email__Input {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form__Email {
+        text-align: center;
+        margin-bottom: 1px;
+    }
+
+    .form__checkbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form__check__label {
+        text-align: center;
+        font-size: 11px;
+        width: 100%;
+    }
+
+    .Form__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    footer {
+        background-color: rgb(47, 47, 47);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .footer-top {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Logo-footer {
+        margin-bottom: 30px;
+
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        justify-content: center;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
